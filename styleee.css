@@ -1,0 +1,117 @@
+/* Define the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Define the grid item for the header */
+  header {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  
+  /* Define the grid item for the main content */
+  main {
+    grid-column: 2 / -2;
+  }
+  
+  /* Define the grid item for the experience section */
+  .experience {
+    grid-column: 2 / 8;
+  }
+  
+  /* Define the grid item for the education section */
+  .education {
+    grid-column: 8 / -2;
+  }
+  
+  /* Define the grid item for the skills section */
+  .skills {
+    grid-column: 2 / -2;
+  }
+  
+  /* Define the grid item for the footer */
+  footer {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  
+  /* Define styles for images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Define styles for headings */
+  h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Define styles for the main heading */
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Define styles for the subheading */
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  /* Define styles for section headings */
+  h2 {
+    font-size: 1.25rem;
+  }
+  
+  /* Define styles for article headings */
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Define styles for article subheadings */
+  h4 {
+    font-size: 0.875rem;
+    font-weight: normal;
+  }
+  
+  /* Define styles for horizontal rules */
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Define styles for lists */
+  ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  /* Define styles for list items */
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Define styles for links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Define custom styles */
+  /* For example, add a background color to the header */
+  header {
+    background-color: #f8f9fa;
+  }
+  
